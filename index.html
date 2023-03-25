@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Riddhi Investment</title>
-    <link rel="icon" href="assests/images/icon.jpg" type="image/icon type">
+    <link rel="icon" href="images/icon.jpg" type="image/icon type">
     <link rel="stylesheet" href="css/style.css">
     <!-- Iconscout CDN -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -19,6 +19,12 @@
   rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
 />
 
+<style>html {
+    scroll-behavior: smooth;
+  }
+ </style>
+ 
+
 
 </head>
 <body>
@@ -29,7 +35,7 @@
             <ul class="nav_menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="courses.html">Services</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
             <button id="open-menu"><i class="uil uil-bars"></i></button>
@@ -41,7 +47,7 @@
 <!-- Header -->
 
 <header>
-<div class="container header_container">
+<div class="container header_container" id="home">
     <div class="header_left">
 <h1>
     Welcome to Riddhi Investment 
@@ -63,7 +69,7 @@
 
 <!-- Our categories -->
 
-<section class="categories">
+<section class="categories" id="services">
     <div class="container categories_container">
         <div class="categories_left">
             <h1>Our Services</h1>
@@ -73,40 +79,45 @@
         
         <div class="categories_right">
 
-             <article class="category">
+             <a href="mutual_funds.html"><article class="category">
                  <!-- <span class="category_icon"><i class="uil uil-university"></i></span> -->
                  <img src="icons/piggy-bank.png" class="icons-services" alt="">
                  <h4>Mutual Fund</h4>
                  <p>Mutual funds: Diversify your portfolio, minimize risks, maximize returns.</p>
                
              </article>
+            </a>
+            <a href="nri.html">
              <article class="category">
                  <!-- <span class="category_icon"><i class="uil uil-university"></i></span> -->
                  <img src="icons/airplane.png" class="icons-services" alt="">
                  <h4>NRI Corner</h4>
                  <p>NRI Corner: Your One-Stop Solution for Financial Matters Abroad.</p>
              </article>
-
+            </a>
+            <a href="finance_planning.html">
              <article class="category">
                 <!-- <span class="category_icon"><i class="uil uil-server"></i></span> -->
                 <img src="icons/Financial_planning.png" class="icons-services" alt="">
                 <h4>Financial Planning</h4>
                 <p>Plan for Success: Secure Your Financial Future with Smart Planning.</p>
             </article>
-
+        </a>
+            <a href="insurance.html">
             <article class="category">
                 <!-- <span class="category_icon"><i class="uil uil-mobile-android"></i></span> -->
                 <img src="icons/Insurance.png" class="icons-services" alt="">
                 <h4>Insurance</h4>
                 <p>Protect What Matters: Insure Your Future Today with Our Services.</p>
-            </article>
-
+            </article></a>
+            <a href="taxation.html">
             <article class="category">
                 <!-- <span class="category_icon"><i class="uil uil-crop-alt"></i></span> -->
                 <img src="icons/tax.png" class="icons-services" alt="">
                 <h4>Taxation</h4>
                 <p>Maximize Your Refunds: Trust Our Tax Experts for Reliable Services.</p>
             </article>
+        </a>
         </div>
     </div>
 </section>
@@ -175,6 +186,7 @@
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html#services">Services</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
@@ -204,7 +216,8 @@
             <div>
                 <p>+91 98243 80265</p>
                 <a href="https://t.ly/Qd12"><p style="margin-top: 10px;">14, Super Market, Nana Bazar, V.V.Nagar</p></a>
-                <p style="margin-top: 10px;">riddhiinvestment@yahoo.com</p>
+                
+                <a href="mailto:riddhiinvestment@yahoo.com"><p style="margin-top: 10px;">riddhiinvestment@yahoo.com</p></a>
             </div>
 
             <ul class="footer_social">

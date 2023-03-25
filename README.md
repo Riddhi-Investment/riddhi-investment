@@ -1,1 +1,2 @@
-Riddhi Investment
+# Edu
+A education based website
