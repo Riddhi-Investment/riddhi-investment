@@ -484,6 +484,14 @@ transition: var(--transition);
         gap: 0;
         display: none;
     }
+	 .icons-services{
+        width: 80px;
+        height: 80px;
+        margin-left: 30px;
+        margin-top: 50px;
+        
+        
+    }
 
     .nav_menu li {
         width: 80%;
